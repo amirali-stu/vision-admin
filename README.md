@@ -1,16 +1,84 @@
-<<<<<<< HEAD
-# vision-admin
-=======
-# React + Vite
+# Vision Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Vision Admin** یک پنل مدیریت مدرن و کاملاً واکنش‌گرا است که با **React** و **TailwindCSS** ساخته شده است. این پروژه دارای حالت **Dark Mode / Light Mode** و قابلیت اتصال به دیتابیس داخلی JSON می‌باشد.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ویژگی‌ها
 
-## Expanding the ESLint configuration
+* طراحی کاملاً **ریسپانسیو** و مدرن
+* **Dark Mode / Light Mode**
+* اتصال به دیتابیس **JSON داخلی**
+* مدیریت چندین بخش:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 3e660ea (create: Creating the initial file structure)
+  * کاربران (Users)
+  * محصولات (Products)
+  * کامنت‌ها (Comments)
+  * تخفیف‌ها (Discounts)
+  * و سایر بخش‌ها
+* قابلیت **اضافه، ویرایش و حذف** داده‌ها در هر بخش
+* امکان **اکسپورت دیتا** هر بخش به فرمت قابل استفاده
+
+---
+
+## تکنولوژی‌ها
+
+* **React**
+* **TailwindCSS**
+* **JavaScript / JSX**
+* دیتابیس **JSON داخلی**
+
+---
+
+## نصب و اجرا
+
+1. کلون کردن پروژه:
+
+```bash
+git clone https://github.com/amirali-stu/vision-admin.git
+cd vision-admin
+```
+
+2. نصب پکیج‌ها:
+
+```bash
+npm install
+```
+
+3. اجرای پروژه در حالت توسعه:
+
+```bash
+npm run dev
+```
+
+4. بیلد پروژه برای محیط پروداکشن:
+
+```bash
+npm run build
+```
+
+---
+
+## استفاده از ویژگی‌ها
+
+* برای مدیریت کاربران، محصولات و سایر بخش‌ها، از منوی سمت چپ داشبورد استفاده کنید.
+* برای تغییر **Dark / Light Mode** از دکمه بالای صفحه استفاده کنید.
+* داده‌ها در JSON ذخیره می‌شوند و قابلیت **اکسپورت** دارند.
+
+---
+
+## ساختار پروژه
+
+```
+/src
+  /components   # کامپوننت‌های اصلی داشبورد
+  /pages        # صفحات مختلف
+  /data         # دیتابیس JSON
+  /styles       # فایل‌های CSS/Tailwind
+```
+
+---
+
+## لایسنس
+
+این پروژه تحت **MIT License** منتشر شده است.
