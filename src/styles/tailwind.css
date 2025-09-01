@@ -18,6 +18,7 @@
   --color-gray-800: #1f2937;
   --color-gray-900: #111827;
 
+
   /* red color custom */
   --color-red-50: #fdf2f2;
   --color-red-100: #fde8e8;
@@ -55,3 +56,7 @@
   --color-blue-900: #233876;
   /* ... */
 }
+
+/* p{
+  transform: ;
+} */
